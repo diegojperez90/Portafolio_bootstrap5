@@ -4,18 +4,15 @@ body {
 }
 
 header .nav {
-    min-height: 88px;
+    min-height: 80px;
     overflow: hidden;
     background: white;
 }
 
-header .logo h2 {
-    font-weight: bold;
-    font-size: 18px;
-}
-
+header .logo h2,
 header .logo p {
     font-size: 16px;
+    display: inline-block;
 }
 
 header .logo .icono {
@@ -33,3 +30,30 @@ header .menu .c3 { background: #003855; }
 header .menu .c1:hover { background: #1ba0ef; }
 header .menu .c2:hover { background: #00426a; }
 header .menu .c3:hover { background: #002d44; }
+
+/* MAIN */
+/* .portafolio */
+.portafolio {
+    border-top: 6px solid #3da5e2;
+    background: #fff;
+}
+
+.portafolio .titulo {
+    color: #3da5e2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.portafolio .galeria .contenedor-imagen {
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a {
+    background: #3da5e2;
+    display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+    opacity: .3;
+}
